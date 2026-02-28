@@ -21,6 +21,17 @@ public class ExceptionMiddleware
         {
             await _next(context);
         }
+        catch (AuthenticationException ex)
+        {
+            _logger.LogWarning(
+                ex,
+                "Authentication failed: {Message}",
+                ex.Message);
+
+            context.Response.StatusCode = ex.StatusCode;
+            await context.Response
+                .WriteAsJsonAsync(new { error = ex.Message });
+        }
         catch (DomainException ex)
         {
             _logger.LogWarning(
