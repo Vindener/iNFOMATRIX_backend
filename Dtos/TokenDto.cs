@@ -1,4 +1,4 @@
-namespace Infomatrix.Dtos;
+namespace Infomatrix.Api.Dtos;
 
 public record TokenDto(
     string AccessToken,

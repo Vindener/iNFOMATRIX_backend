@@ -1,6 +1,6 @@
-﻿using Infomatrix.Domain;
+﻿using Infomatrix.Api.Domain;
 
-namespace Infomatrix.Middlewares;
+namespace Infomatrix.Api.Middlewares;
 
 public class ExceptionMiddleware
 {

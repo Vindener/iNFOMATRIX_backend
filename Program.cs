@@ -1,6 +1,6 @@
-using Infomatrix.Abstractions.Services;
-using Infomatrix.Data;
-using Infomatrix.Middlewares;
+using Infomatrix.Api.Abstractions.Services;
+using Infomatrix.Api.Data;
+using Infomatrix.Api.Middlewares;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using StarterApp.Infrastructure.Auth;
