@@ -1,9 +1,9 @@
-﻿using Infomatrix.Abstractions.Services;
-using Infomatrix.Dtos;
-using Infomatrix.Dtos.Auth;
+﻿using Infomatrix.Api.Abstractions.Services;
+using Infomatrix.Api.Dtos;
+using Infomatrix.Api.Dtos.Auth;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Infomatrix.Controllers;
+namespace Infomatrix.Api.Controllers;
 
 [Route("api/auth")]
 [ApiController]

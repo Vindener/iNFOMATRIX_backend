@@ -1,10 +1,10 @@
-﻿using Infomatrix.Data;
-using Infomatrix.Domain;
-using Infomatrix.Dtos;
-using Infomatrix.Mapping;
+﻿using Infomatrix.Api.Data;
+using Infomatrix.Api.Domain;
+using Infomatrix.Api.Dtos;
+using Infomatrix.Api.Mapping;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Infomatrix.Controllers;
+namespace Infomatrix.Api.Controllers;
 
 [ApiController]
 [Route("api/users")]

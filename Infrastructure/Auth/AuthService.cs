@@ -1,8 +1,8 @@
 ﻿using SupabaseClient = Supabase.Client;
 
-using Infomatrix.Abstractions.Services;
-using Infomatrix.Domain;
-using Infomatrix.Dtos;
+using Infomatrix.Api.Abstractions.Services;
+using Infomatrix.Api.Domain;
+using Infomatrix.Api.Dtos;
 using Microsoft.Extensions.Options;
 using Supabase.Gotrue;
 using Supabase.Gotrue.Exceptions;

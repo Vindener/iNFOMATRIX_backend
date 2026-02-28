@@ -1,6 +1,6 @@
-﻿using Infomatrix.Dtos;
+﻿using Infomatrix.Api.Dtos;
 
-namespace Infomatrix.Abstractions.Services;
+namespace Infomatrix.Api.Abstractions.Services;
 
 public interface IAuthService
 {

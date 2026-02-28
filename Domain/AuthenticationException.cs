@@ -1,4 +1,4 @@
-namespace Infomatrix.Domain;
+namespace Infomatrix.Api.Domain;
 
 public class AuthenticationException : Exception
 {
